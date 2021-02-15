@@ -1,3 +1,19 @@
+codes
+
+1). hdfs dfs -mkdir /WCi
+2). hdfs dfs -put /home/cse/podey /WCi
+3). yarn jar 5Q0.jar raju.WordCount /WCi/podey /WCo
+4). hdfs dfs -ls /WCo
+5). hdfs dfs -cat /WCo/part-r-00000
+
+
+
+
+
+
+
+
+
 cse@cse-OptiPlex-3020:~/5Q0$ hdfs dfs -mkdir /WCi
 21/02/15 21:00:54 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 cse@cse-OptiPlex-3020:~/5Q0$ hdfs dfs -put /home/cse/podey /WCi
